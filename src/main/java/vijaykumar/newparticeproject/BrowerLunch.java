@@ -59,7 +59,7 @@ public class BrowerLunch {
 		String mail = driver.findElement(By.id("userEmail")).getAttribute("value");
 		System.out.println(mail);
 
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 
 		// close the window
 		driver.close();
